@@ -70,6 +70,4 @@ newapp/
 ```
 
 
-## License
 
-*(Add your license here, e.g. MIT, Apache 2.0, or "Proprietary" if this is not open source.)*
