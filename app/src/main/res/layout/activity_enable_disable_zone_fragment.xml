@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Zone"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_zone"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:background="@drawable/edittext_bg"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_enable_zone"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:text="Enable"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rounded_button"
+            app:backgroundTint="@null"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_disable_zone"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:text="Disable"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_button"
+            app:backgroundTint="@null"/>
+    </LinearLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_enable_sounder"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:text="Enable Sounder"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/rounded_button"
+        app:backgroundTint="@null"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_disable_sounder"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:text="Disable Sounder"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        app:backgroundTint="@null"/>
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD">
+
+
+    <TextView
+        android:id="@+id/tv_instruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter 24hr format (e.g., 17:31)"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"/>
+
+
+    <EditText
+        android:id="@+id/et_time"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:hint="HH:MM"
+        android:inputType="time"
+        android:gravity="center"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_marginBottom="24dp"/>
+
+
+    <Button
+        android:id="@+id/btn_set_arm_time"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:text="Set Arm Time"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/rounded_button"/>
+
+    <Button
+        android:id="@+id/btn_set_disarm_time"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:text="Set Disarm Time"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/rounded_button"/>
+
+    <Button
+        android:id="@+id/btn_set_quick_zone"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:text="Set Quick Zone Time"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/rounded_button"/>
+
+    <Button
+        android:id="@+id/btn_set_delayed_zone"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:text="Set Delayed Zone Time"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/rounded_button"/>
+</LinearLayout>

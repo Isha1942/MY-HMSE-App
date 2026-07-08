@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My HMSE</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string name="about_us_text">
+We are ISO 9001:2015 certified Indian manufacturer of Security Alarm systems, established in 2018.
+
+All products of our portfolio are CE and ROHS Certified.
+
+We provide security solutions from small shops to big banks.
+
+For more information please visit our website.
+</string>
+
+</resources>

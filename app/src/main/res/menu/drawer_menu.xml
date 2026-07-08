@@ -1,0 +1,69 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1" android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_device_selection"
+            android:title="Device Selection"
+            android:icon="@drawable/ic_devices" />
+
+        <item
+            android:id="@+id/nav_device_settings"
+            android:title="Device Settings"
+            android:icon="@drawable/ic_settings" />
+
+        <item
+            android:id="@+id/nav_arm_disarm"
+            android:title="Arm / Disarm"
+            android:icon="@drawable/ic_lock" />
+    </group>
+
+
+    <group android:id="@+id/group2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_entry_exit"
+            android:title="Entry And Exit Timers"
+            android:icon="@drawable/ic_timer" />
+
+        <item
+            android:id="@+id/nav_sounder_timing"
+            android:title="Sounder Timing"
+            android:icon="@drawable/ic_volume" />
+
+        <item
+            android:id="@+id/nav_auto_timer"
+            android:title="Auto Timer"
+            android:icon="@drawable/ic_schedule" />
+    </group>
+
+
+    <group android:id="@+id/group3" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_enable_disable"
+            android:title="Enable / Disable Zone"
+            android:icon="@drawable/ic_tune" />
+
+        <item
+            android:id="@+id/nav_device_data"
+            android:title="Device Data Check"
+            android:icon="@drawable/ic_home" />
+
+        <item
+            android:id="@+id/nav_notes"
+            android:title="Notes"
+            android:icon="@drawable/ic_note" />
+
+        <item
+            android:id="@+id/nav_history"
+            android:title="History"
+            android:icon="@drawable/ic_history" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="About Us"
+            android:icon="@drawable/ic_info" />
+    </group>
+
+</menu>

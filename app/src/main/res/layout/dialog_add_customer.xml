@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/etCustomerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Customer Name"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etSiteName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Site Name"
+        android:inputType="text"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etSimNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SIM Number"
+        android:inputType="phone"
+        android:layout_marginBottom="8dp"/>
+</LinearLayout>
