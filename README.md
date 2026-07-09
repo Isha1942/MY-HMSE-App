@@ -2,6 +2,11 @@
 
 An Android app to control and monitor SMS-based security alarm systems — arm/disarm your device, manage zones, configure timers, and view command history, all from your phone.
 
+![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)
+![Language](https://img.shields.io/badge/Language-Java-orange?logo=java)
+![Database](https://img.shields.io/badge/Database-Room-blue)
+![Auth](https://img.shields.io/badge/Auth-Firebase-FFCA28?logo=firebase)
+
 ## Features
 
 - **Arm / Disarm** your alarm system remotely via SMS commands
@@ -26,8 +31,10 @@ An Android app to control and monitor SMS-based security alarm systems — arm/d
 
 The app requires the following permissions:
 
-- `SEND_SMS` — to send control commands to the alarm device
-- `INTERNET` / `ACCESS_NETWORK_STATE` — for Firebase Authentication and connectivity checks
+| Permission | Purpose |
+|---|---|
+| `SEND_SMS` | Send control commands to the alarm device |
+| `INTERNET` / `ACCESS_NETWORK_STATE` | Firebase Authentication and connectivity checks |
 
 ## Getting Started
 
@@ -41,7 +48,7 @@ The app requires the following permissions:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
+   git clone https://github.com/Isha1942/MY-HMSE-App.git
    ```
 2. Open the project in Android Studio.
 3. Add your own `app/google-services.json` file (see [Firebase setup](https://firebase.google.com/docs/android/setup)) — this file is required for Firebase Auth and is **not** committed to the repo for security reasons.
@@ -60,14 +67,16 @@ The generated APK will be located at `app/build/outputs/apk/debug/`.
 ```
 newapp/
 ├── app/
-│   ├── src/main/java/com/spark/newapp2/   # App source code (activities, fragments, adapters)
-│   ├── src/main/java/com/spark/newapp2/database/  # Room database entities & DAOs
-│   ├── src/main/res/                      # Layouts, drawables, strings, themes
+│   ├── src/main/java/com/spark/newapp2/          # App source code (activities, fragments, adapters)
+│   ├── src/main/java/com/spark/newapp2/database/ # Room database entities & DAOs
+│   ├── src/main/res/                              # Layouts, drawables, strings, themes
 │   └── src/main/AndroidManifest.xml
 ├── build.gradle.kts
 ├── settings.gradle.kts
 └── gradle/
 ```
 
+## Author
 
-
+**Ishwari Korbu**
+[GitHub](https://github.com/Isha1942)
