@@ -76,3 +76,11 @@ newapp/
 
 **Ishwari Korbu**
 [GitHub](https://github.com/Isha1942)
+
+## License
+
+© 2026 Ishwari Korbu. All Rights Reserved.
+
+This code is publicly visible for portfolio/interview purposes only.
+Copying, redistribution, or commercial use of this code or the
+associated Play Store app without explicit written permission is prohibited.
