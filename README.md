@@ -1,11 +1,12 @@
 # My HMSE
 
-An Android app to control and monitor SMS-based security alarm systems — arm/disarm your device, manage zones, configure timers, and view command history, all from your phone.
+An Android app to control and monitor SMS-based (GSM) security alarm systems — arm/disarm your device, manage zones, configure timers, and view command history, all from your phone.
+
+Built to work with [HMSE Technologies](https://hmsetech.com/) GSM-based wired alarm control panels, used to secure homes, offices, and industries.
 
 ![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)
 ![Language](https://img.shields.io/badge/Language-Java-orange?logo=java)
 ![Database](https://img.shields.io/badge/Database-Room-blue)
-![Auth](https://img.shields.io/badge/Auth-Firebase-FFCA28?logo=firebase)
 
 ## Features
 
@@ -16,25 +17,22 @@ An Android app to control and monitor SMS-based security alarm systems — arm/d
 - **Device selection & settings** for managing multiple devices
 - **Command history** — track sent commands and device responses
 - **Saved user details** and notes per device
-- **Firebase Authentication** for user login
 - **Local storage** with Room database (device data, history, notes)
 
 ## Tech Stack
 
 - **Language:** Java
 - **Platform:** Android (min SDK 24, target SDK 34, compile SDK 35)
-- **Database:** Room (local persistence)
-- **Auth:** Firebase Authentication
+- **Database:** Room (local persistence — devices, command history, notes)
 - **UI:** AndroidX, Material Components, ConstraintLayout, ViewPager/Fragments
 
 ## Permissions
 
-The app requires the following permissions:
+The app requires the following permission:
 
 | Permission | Purpose |
 |---|---|
-| `SEND_SMS` | Send control commands to the alarm device |
-| `INTERNET` / `ACCESS_NETWORK_STATE` | Firebase Authentication and connectivity checks |
+| `SEND_SMS` | Send control commands (arm/disarm, zone toggles, timer settings) to the GSM alarm control panel |
 
 ## Getting Started
 
@@ -42,7 +40,6 @@ The app requires the following permissions:
 
 - [Android Studio](https://developer.android.com/studio) (latest stable version)
 - JDK 11
-- A Firebase project with `google-services.json` configured (place it in `app/`)
 
 ### Setup
 
@@ -51,8 +48,7 @@ The app requires the following permissions:
    git clone https://github.com/Isha1942/MY-HMSE-App.git
    ```
 2. Open the project in Android Studio.
-3. Add your own `app/google-services.json` file (see [Firebase setup](https://firebase.google.com/docs/android/setup)) — this file is required for Firebase Auth and is **not** committed to the repo for security reasons.
-4. Sync Gradle and run the app on an emulator or physical device.
+3. Sync Gradle and run the app on an emulator or physical device.
 
 ### Build from command line
 
